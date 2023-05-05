@@ -12,9 +12,9 @@ voltage_data = []
 
 
 #Read in the data
-lines = np.loadtxt('Voltage_Data.txt', delimiter = ',')
+lines = np.loadtxt('Voltage_Data.txt', delimiter = ',', skiprows=2)
 for line in lines:
-    time_data.append(line[0]/3600) 		#First item in the row is the time
+    time_data.append(line[0]/3600) 	#First item in the row is the time
     voltage_data.append(line[1])	#Second item in the row is the voltage
 
 #Make a plot

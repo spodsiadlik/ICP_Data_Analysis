@@ -1,4 +1,5 @@
-#The are the current values of a discharging battery.
+This is the data for the current drop of the battery.
+Time(s), Current(A)
 4.76837158203125e-06,0.04989764585465711
 300.1002125740051,0.04447287615148413
 600.1869523525238,0.04406345957011259

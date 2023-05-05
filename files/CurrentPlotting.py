@@ -12,11 +12,10 @@ current_data = []
 
 
 #Read in the data
-lines = np.loadtxt('Current_Values.txt', delimiter = ',')
+lines = np.loadtxt('Current_Values.txt', delimiter = ',', skiprows=2)
 for line in lines:
     time_data.append(line[0]/3600) 		#First item in the row is the time
-    current_data.append(line[1])	#Second item in the row is the voltage
-    
+    current_data.append(line[1])	        #Second item in the row is the current
 
 
 #Make a plot

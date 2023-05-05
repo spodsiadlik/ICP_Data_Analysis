@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+
+\bibitem{datasheet}
+Energizer.
+\newblock {\em Energizer EN22 9V Battery Product Datasheet}.
+
+\bibitem{ADC0831}
+Texas Instruments.
+\newblock {\em ADC0831 8-Bit Serial I/O A/D Converters with Multiplexer Options
+  Data Sheet}, 8 1999.
+\newblock Rev. March 2013.
+
+\end{thebibliography}
