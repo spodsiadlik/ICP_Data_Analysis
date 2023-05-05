@@ -32,5 +32,4 @@ ax.set_xlabel("Time (hours)")
 ax.set_ylabel("Voltage (V)")
 ax.set_title("9V Battery Discharge Rate")
 
-ax.text(0.4, 1.5, "Annotate the plot if needed.")
 plt.savefig('FinalBatteryDischarge.png')
