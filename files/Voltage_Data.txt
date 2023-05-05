@@ -1,3 +1,4 @@
+#This is the voltage data of a discharging 9V battery.
 4.76837158203125e-06,9.75
 300.1002125740051,8.69
 600.1869523525238,8.61
