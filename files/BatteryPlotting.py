@@ -1,8 +1,6 @@
 """
 Simon Podsiadlik
-2/1/2023
 Plotting the collected Battery Discharge Data
-
 """
 
 import matplotlib.pyplot as plt
